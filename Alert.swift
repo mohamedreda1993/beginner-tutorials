@@ -16,6 +16,10 @@ class ViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: { (action) in
             alert.dismiss(animated: true, completion: nil)
         }))
+        // if we wanted to make more button
+        alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: { (action) in
+            alert.dismiss(animated: true, completion: nil)
+        }))
         self.present(alert, animated: true, completion:nil)
 
     }
